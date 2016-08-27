@@ -10,20 +10,30 @@
 	<title>S+Trip</title>
 	
 </head>
-<body>
+<body class="all">
 	<!-- nav info -->
 	<div class="nav-info">
+		<!-- side menu -->
+		<nav id= "mySidenav" class="side-menu">
+			<ul>
+				<a class="closebtn" onclick="closeNav()"><i class="material-icons">arrow_back</i></a>
+				<a class="click-animation" href="#who-we-are"><li>Who we are</li></a>
+				<a class="click-animation" href="#what-we-do"><li>What We Do</li></a>
+				<a class="click-animation" href="#team-members"><li>Team members</li></a>
+				<a class="click-animation" href="#where-we-are"><li>Where we are</li></a>
+			</ul>
+		</nav>	
 		<!-- nav info left part -->
 		<div class="nav-info-left">
 			<ul>
-				<li><a class="material-icons">menu</a></li>
-				<li><a class="material-icons" href="#" data-toggle="tooltip" data-placement="bottom" title="social">public</a></li>
+				<li><a class="menu-control click-animation" href="#" onclick="openNav()"><i class="material-icons">menu</i></a></li>
+				<li><i class="material-icons">public</i></li>
 				<li> <form id="demo-2">
 					<input type="search" placeholder="Search">
 				</form>
 			</li>
 		</ul>
-		</div>
+	</div>
 	<!-- logo -->
 	<a href="index.html"><img class="logo-img" src="img/logoBlackRed.png"></a> 
 	<!-- nav info right part -->
