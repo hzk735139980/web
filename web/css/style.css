@@ -21,12 +21,12 @@
  .nav-info ul li{
  	display: inline-block;
  	color: black;
- 	font-size: 16px;
-    margin: 10px;
- }
+ 	/*font-size: 16px;*/
+}
+
  .nav-info ul li a {
  	color: black;
- 	font-size: 16px;
+ 	/*font-size: 16px;*/
  }
 
 /*side menu property*/
@@ -37,7 +37,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: yellowgreen;
+    background-color: #2BDE73;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -151,12 +151,13 @@ input::-webkit-input-placeholder {
  	position: absolute;
  	top: 0;
  	right: 40px;
+    font-size: 15px;
  }
   .nav-info-right ul{
  	margin: 25px 0px;
  }
 .nav-info-right ul li+li:before{
- 	padding: 10px;
+ 	padding: 20px;
  	content: "|";
  }
  .logo-img{
@@ -169,6 +170,7 @@ input::-webkit-input-placeholder {
  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
  	max-width: 100%
  	margin: 0;
+
  }
  .carousel-inner{
  	position: relative;
@@ -199,12 +201,12 @@ input::-webkit-input-placeholder {
  	display: inline-block;
  }
 
- .part1-topic{
+ .part-topic{
  	background-color: white;
  	height: 70px;
  	margin-left: 2%;
     margin-right: 2%;
-    margin-top: 5%;
+    margin-top: 6%;
     margin-bottom: 1%;
  	position: relative;
  }
@@ -228,103 +230,7 @@ input::-webkit-input-placeholder {
  }
 
  .explore-btn:hover{
- 	background-color: #03C7EF;
- }
-/* part2 */
- .part2-topic{
- 	background-color: white;
- 	height: 70px;
- 	margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 5%;
-    margin-bottom: 1%;
- 	position: relative;
- }
- .theme2{
- 	float: left;
- 	margin-top: 17px;
- 	margin-bottom: 17px;
- }
-
- .explore-btn2{
- 	background-color: white;
- 	color: black;
- 	padding: 8px;
- 	border-radius: 5px;
- 	border-color: black;
- 	border-width: thin;
- 	margin-top: 10px;
- 	float: right;
- 	transition: background-color .5s cubic-bezier(0.4, 0, 1, 1);
- }
- .explore-btn2:hover{
- 	background-color: #03C7EF;
- }
-
- /* part3 */
- .part3-topic{
- 	background-color: white;
- 	height: 70px;
- 	margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 5%;
-    margin-bottom: 1%;
- 	position: relative;
- }
- .theme3{
- 	float: left;
- 	margin-top: 17px;
- 	margin-bottom: 17px;
- }
-
- .explore-btn3{
- 	background-color: white;
- 	color: black;
- 	padding: 8px;
- 	border-radius: 5px;
- 	border-color: black;
- 	border-width: thin;
- 	margin-top: 10px;
- 	float: right;
- 	transition: background-color .5s cubic-bezier(0.4, 0, 1, 1);
- }
- .explore-btn3:hover{
- 	background-color: #03C7EF;
- }
-
- /* part4 */
- .homepage_project_part4{
- 	background-color: pink;
- 	width: 1200px;
- 	height: 500px;
- 	margin-left: 100px;
- 	transform: translateY(400px);
-
- }
- .part4-topic{
- 	background-color: white;
- 	height: 70px;
- 	position: relative;
- }
- .theme4{
- 	float: left;
- 	margin-top: 17px;
- 	margin-bottom: 17px;
- }
-
- .explore-btn4{
- 	background-color: white;
- 	color: black;
- 	padding: 8px;
- 	border-radius: 5px;
- 	border-color: black;
- 	border-width: thin;
- 	margin-top: 10px;
- 	float: right;
- 	transition: background-color .5s cubic-bezier(0.4, 0, 1, 1);
- }
- .explore-btn4:hover{
- 	background-color: #03C7EF;
+ 	background-color: #2BDE73;
  }
 
 /* slider */
@@ -344,8 +250,4 @@ input::-webkit-input-placeholder {
 /* login.html */
 .bg{
 	max-width: 100%;
-}
-
-.active{
-	grayscale:0;
 }
