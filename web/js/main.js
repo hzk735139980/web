@@ -1,13 +1,15 @@
 $(document).on('ready',function(){
 	$(".center").slick({
 		dots: true,
+		arrows: true,
 		infinite: true,
 		centerMode:true,
-		centerPadding:'40px',
+
+		centerPadding:'290px',
 		slidesToshow: 3,
 		slidesToScroll: 1,
 		autoplay:true,
-        autoplaySpeed: 4000
+        autoplaySpeed: 5000
 		// responsive:[
 		// 	{
 		// 		breakpoint: 1170,
@@ -41,9 +43,9 @@ $(document).on('ready',function(){
 	});
 });
 
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-});
+// $(document).ready(function(){
+//     $('[data-toggle="tooltip"]').tooltip();
+// });
 
 
 function openNav() {

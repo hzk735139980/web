@@ -168,7 +168,7 @@ input::-webkit-input-placeholder {
  }
 
  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
- 	max-width: 100%
+ 	min-width: 100%;
  	margin: 0;
 
  }
@@ -233,21 +233,23 @@ input::-webkit-input-placeholder {
  	background-color: #2BDE73;
  }
 
-/* slider */
-.slider {
-	width: 50%;
-	margin: 40px auto;
+/* traveler */
+.travelers{
+    padding-left: 18px;
+    margin-left: 12px;
+    
 }
 
-.slick-slide {
-	margin: 0px 15px;
+.border-left{
+    border-left: 0.1rem solid #DCDEDD;
 }
 
-.slick-slide img {
-	width: 100%;
+/* successful slide*/
+.ml{
+    margin-left: 20px;
 }
 
-/* login.html */
-.bg{
-	max-width: 100%;
+.mr{
+    margin-right: 20px;
 }
+
