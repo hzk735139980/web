@@ -4,7 +4,7 @@
  html, body{
  	background-color: white;
  	margin: 0;
- 	font-family: Helvetica, Arial, sans-serif;
+ 	font-family: UniviaPro, Helvetica, Arial, sans-serif;
  }
 
  ol{
@@ -28,6 +28,11 @@
  	color: black;
  	/*font-size: 16px;*/
  }
+
+.material-icons{
+    margin-top: 20px;
+    padding-right: 15px;
+}
 
 /*side menu property*/
 .side-menu{
@@ -78,75 +83,6 @@
     font-size: 25px;
  }
 */
- 
-input[type=search] {
-    -webkit-appearance: textfield;
-    -webkit-box-sizing: content-box;
-    font-family: inherit;
-    font-size: 100%;
-}
-input::-webkit-search-decoration,
-input::-webkit-search-cancel-button {
-    display: none; 
-}
-
-
-input[type=search] {
-    background:  url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
-    border: solid 0px #ccc;
-    padding: 9px 10px 9px 32px;
-    width: 55px;
-    
-    -webkit-border-radius: 10em;
-    -moz-border-radius: 10em;
-    border-radius: 10em;
-    
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    transition: all .5s;
-}
-input[type=search]:focus {
-    width: 130px;
-    background-color: #fff;
-    border-color: #66CC75;
-    border: solid 1px #ccc;
-    
-    -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
-    -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
-    box-shadow: 0 0 5px rgba(109,207,246,.5);
-}
-
-
-input:-moz-placeholder {
-    color: #999;
-}
-input::-webkit-input-placeholder {
-    color: #999;
-}
-
-/* Demo 2 */
-#demo-2 input[type=search] {
-    width: 15px;
-    padding-left: 10px;
-    color: transparent;
-    cursor: pointer;
-}
-#demo-2 input[type=search]:hover {
-    background-color: #fff;
-}
-#demo-2 input[type=search]:focus {
-    width: 130px;
-    padding-left: 32px;
-    color: #000;
-    background-color: #fff;
-    cursor: auto;
-}
-#demo-2 input:-moz-placeholder {
-    color: transparent;
-}
-#demo-2 input::-webkit-input-placeholder {
-    color: transparent;
-}
  .nav-info-right{
  	position: absolute;
  	top: 0;
@@ -202,20 +138,48 @@ input::-webkit-input-placeholder {
  }
 
  .part-topic{
- 	background-color: white;
+ 	/*background-color: white;
  	height: 70px;
  	margin-left: 2%;
     margin-right: 2%;
     margin-top: 6%;
     margin-bottom: 1%;
- 	position: relative;
+ 	position: relative;*/
+    text-align: center;
+    display: table;
+    width: 100%;
+    height: 170px;
  }
 
- .theme{
+ .part-topic>div{
+    width: 33.3333333333%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+ }
+ .line{
+    background-color: #9a9999;
+    height: 1px;
+    position: relative;  
+ }
+
+ .more{
+    position: absolute;
+    right: 0;
+    bottom: -6px;
+    font-size: 14px;
+    background-color: #fff;
+    padding-left: 23px;
+ }
+ .more a{
+    color: #9a9999;
+    text-decoration: none;
+ }
+ /*.theme{
  	float: left;
  	margin-top: 17px;
  	margin-bottom: 17px;
- }
+ }*/
 
  .explore-btn{
  	background-color: white;

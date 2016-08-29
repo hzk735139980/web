@@ -1,11 +1,9 @@
 $(document).on('ready',function(){
 	$(".center").slick({
 		dots: true,
-		arrows: true,
 		infinite: true,
 		centerMode:true,
-
-		centerPadding:'290px',
+		centerPadding: 290,
 		slidesToshow: 3,
 		slidesToScroll: 1,
 		autoplay:true,
@@ -41,12 +39,8 @@ $(document).on('ready',function(){
 		// 	}
 		// ]
 	});
+	// $('[data-toggle="tooltip"]').tooltip();
 });
-
-// $(document).ready(function(){
-//     $('[data-toggle="tooltip"]').tooltip();
-// });
-
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
