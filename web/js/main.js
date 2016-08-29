@@ -1,45 +1,17 @@
-$(document).on('ready',function(){
-	$(".center").slick({
-		dots: true,
-		infinite: true,
-		centerMode:true,
-		centerPadding: 290,
-		slidesToshow: 3,
-		slidesToScroll: 1,
-		autoplay:true,
-        autoplaySpeed: 5000
-		// responsive:[
-		// 	{
-		// 		breakpoint: 1170,
-		// 		settings:{
-		// 			arrows: false,
-		// 			centerMode: true,
-		// 			centerPadding: '60px',
-		// 			slidesToshow:3,
-		// 			slidesToScroll: 1
-		// 		}
-		// 	},
-		// 	{
-		// 		breakpoint: 970,
-		// 		settings:{
-		// 			arrows: false,
-		// 			centerMode: true,
-		// 			centerPadding: '40px',
-		// 			slidesToshow:2,
-		// 			slidesToScroll: 1	
-		// 	},
-		// 	{
-		// 		breakpoint: 480,
-		// 		settings:{
-		// 			arrows: false,
-		// 			centerMode: true,
-		// 			centerPadding: '40px',
-		// 			slidesToshow:1,
-		// 			slidesToScroll: 1	
-		// 	}
-		// ]
-	});
-	// $('[data-toggle="tooltip"]').tooltip();
+// for every slide in carousel, copy the next slide's item in the slide.
+// Do the same for the next, next item.
+$('.multi-item-carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+  
+  if (next.next().length>0) {
+    next.next().children(':first-child').clone().appendTo($(this));
+  } else {
+    $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+  }
 });
 
 function openNav() {

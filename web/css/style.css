@@ -4,7 +4,7 @@
  html, body{
  	background-color: white;
  	margin: 0;
- 	font-family: UniviaPro, Helvetica, Arial, sans-serif;
+ 	font-family: "Comic Sans MS", cursive, Helvetica, Arial, sans-serif;
  }
 
  ol{
@@ -148,10 +148,11 @@
     text-align: center;
     display: table;
     width: 100%;
-    height: 170px;
+    height: 140px;
+    margin-top: 30px;
  }
 
- .part-topic>div{
+ .part-topic > div{
     width: 33.3333333333%;
     display: table-cell;
     vertical-align: middle;
@@ -209,11 +210,44 @@
 }
 
 /* successful slide*/
-.ml{
-    margin-left: 20px;
+.multi-item-carousel .carousel-inner > .item {
+  -webkit-transition: 500ms ease-in-out left;
+  transition: 500ms ease-in-out left;
+  
 }
 
-.mr{
-    margin-right: 20px;
+.multi-item-carousel .carousel-inner .active.left {
+  left: -33%;
+}
+.multi-item-carousel .carousel-inner .active.right {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .next {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .prev {
+  left: -33%;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .multi-item-carousel .carousel-inner > .item {
+    -webkit-transition: 500ms ease-in-out all;
+    transition: 500ms ease-in-out all;
+    -webkit-backface-visibility: visible;
+            backface-visibility: visible;
+    -webkit-transform: none!important;
+            transform: none!important;
+  }
+}
+.multi-item-carousel > .left{
+  width: 130px;
+  margin-left: 15px;
+}
+
+.multi-item-carousel > .right {
+  
+width: 130px;
+  margin-right: 55px;
+
+
 }
 
