@@ -92,6 +92,13 @@ input[type=text]:focus {
     width: 100%;
 }
 
+ .logo-img{
+    width: 145px;
+    margin-left: 44%;
+    position: absolute;
+    bottom: 9px;
+ }
+
 .nav-info-right{
  	position: absolute;
  	top: 0;
@@ -121,11 +128,28 @@ input[type=text]:focus {
     -webkit-transform: translateY(25px);
     transform: translateY(25px);
 }
- .logo-img{
- 	width: 145px;
- 	margin-left: 44%;
- 	position: absolute;
- 	bottom: 9px;
+
+/* modal */
+.modal-dialog{
+    width: 420px;
+}
+.modal-content{
+    height: 450px;
+}
+ .modal-title{
+    padding-bottom: 30px;
+    
+ }
+ .forgot{
+    float: right;
+ }
+ .btn-primary{
+    padding: 8px 161px;
+    background-color: teal;
+ }
+ .New{
+    float: left;
+    margin-left: 30%;
  }
 
  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -201,11 +225,9 @@ input[type=text]:focus {
     color: #9a9999;
     text-decoration: none;
  }
- /*.theme{
- 	float: left;
- 	margin-top: 17px;
- 	margin-bottom: 17px;
- }*/
+.theme{
+    font-size: 22px;
+ }
 
  .explore-btn{
  	background-color: white;
@@ -220,7 +242,7 @@ input[type=text]:focus {
  }
 
  .explore-btn:hover{
- 	background-color: #2BDE73;
+ 	background-color: teal;
  }
 
 /* traveler */
