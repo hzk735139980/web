@@ -56,6 +56,9 @@
     transition: 0.3s
 }
 
+.side-menu a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
 .side-menu .closebtn{
     position: absolute;
     top: 0;
@@ -64,7 +67,13 @@
     margin-left: 50px;
 }
 
+#main {
+    transition: margin-left .5s;
+}
+
 /*side menu property ends*/
+
+/*search bar*/
 input[type=text]{
     width: 169px;
     height: 30px;
@@ -82,19 +91,36 @@ input[type=text]{
 input[type=text]:focus {
     width: 100%;
 }
- .nav-info-right{
+
+.nav-info-right{
  	position: absolute;
  	top: 0;
  	right: 40px;
     font-size: 15px;
  }
-  .nav-info-right ul{
+.nav-info-right ul{
  	margin: 25px 0px;
  }
 .nav-info-right ul li+li:before{
  	padding: 20px;
  	content: "|";
  }
+
+.nav-info-right a{
+    position: relative;
+    text-decoration: none;
+}
+.nav-info-right a:hover::after {  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 5px;
+    left: 0;
+    right: 0;
+    background-color: tomato;
+    -webkit-transform: translateY(25px);
+    transform: translateY(25px);
+}
  .logo-img{
  	width: 145px;
  	margin-left: 44%;
@@ -249,4 +275,9 @@ width: 130px;
 
 
 }
-
+.footer_container{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+}
