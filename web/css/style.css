@@ -195,7 +195,7 @@ input[type=text]:focus {
  	margin: 0px 2%;
  	display: inline-block;
  }
- 
+
  .projectimg{
     min-width: 100%;
  }
@@ -221,6 +221,7 @@ input[type=text]:focus {
     vertical-align: middle;
     position: relative;
  }
+
  .line{
     background-color: #9a9999;
     height: 1px;
@@ -235,6 +236,7 @@ input[type=text]:focus {
     background-color: #F7F5F2;
     padding-left: 23px;
  }
+
  .more a{
     color: #9a9999;
     text-decoration: none;
@@ -307,13 +309,25 @@ input[type=text]:focus {
 .multi-item-carousel > .right {
   
 width: 130px;
-  margin-right: 55px;
+margin-right: 55px;
 
 
 }
 .footer_container{
-    height: 200px;
-    width: 100%;
-    background-color: black;
     margin-top: 100px;
+    background-image: url('footer.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position-y: -234px;
+    background-position-x: 0px;
+    -webkit-filter: grayscale(20%);
+}
+
+.footer-mid ul li{
+    color: white;
+}
+
+.footer-right ul li{
+    color: white;
 }
