@@ -138,21 +138,24 @@ input[type=text]:focus {
 .modal-dialog{
     width: 420px;
 }
+
 .modal-content{
     height: 520px;
 }
 
  .modal-title{
-    padding-bottom: 30px;
-    
+    padding-bottom: 30px; 
  }
+
  .forgot{
     float: right;
  }
+
  .btn-primary{
     padding: 8px 161px;
     background-color: teal;
  }
+
  .New{
     float: left;
     margin-left: 30%;
@@ -192,6 +195,10 @@ input[type=text]:focus {
  	margin: 0px 2%;
  	display: inline-block;
  }
+ 
+ .projectimg{
+    min-width: 100%;
+ }
 
  .part-topic{
  	/*background-color: white;
@@ -225,7 +232,7 @@ input[type=text]:focus {
     right: 0;
     bottom: -6px;
     font-size: 14px;
-    background-color: #fff;
+    background-color: #F7F5F2;
     padding-left: 23px;
  }
  .more a{
