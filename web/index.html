@@ -26,9 +26,9 @@
 		<!-- nav info left part -->
 		<div class="nav-info-left">
 			<ul>
-				<li><a class="menu-control click-animation" href="#" onclick="openNav()"><i class="material-icons">menu</i></a></li>
-				<li><i class="material-icons">public</i></li>
-				<li>
+				<li><a class="menu-control click-animation" href="#" onclick="openNav()"><i class="material-icons align">menu</i></a></li>
+				<li><i class="material-icons align">public</i></li>
+				<li class="align">
 					<form>
 						<input type="text" name="search">
 					</form>
@@ -47,7 +47,7 @@
 					<a data-toggle="modal" data-target="#signUp">Sign up</a>
 				</li>
 				<li>
-					<a href="" data-toggle="modal" data-target="#logIn">Log in</a>
+					<a data-toggle="modal" data-target="#logIn">Log in</a>
 				</li>
 			</ul>
 		</div>
@@ -59,10 +59,6 @@
 	<div class="modal fade" id="logIn" tabindex="-1" role="dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<!-- <div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h3 class="modal-title">Log in</h3>
-				</div> -->
 				<div class="modal-body">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 					<h1 class="modal-title">Log In</h1>
@@ -94,7 +90,37 @@
 	<!-- Sign Up -->
 	<div class="modal fade" id="signUp" tabindex="-1" role="dialog">
 		<div class="modal-dialog">
-			
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h1 class="modal-title">Sign Up</h1>
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email/Phone Number</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Confirm Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> Remember me
+							</label>
+						</div>
+						<button type="button" class="btn btn-primary">Sign me up!</button>
+						<h6>By signing up, you agree to our <a href="">terms of use</a>, <a href="">privacy policy</a>, and <a href="">cookie policy</a>.</h6>
+					</form>
+
+				</div>
+				<div class="modal-footer">
+					<h5 class="New">Have an account?<a data-toggle="modal" data-target="#logIn">Log In</a></h5>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -347,7 +373,7 @@
 				</div>
 				<a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
 				<a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
-			</div>
+			</div>	
 		</div>
 	</div>
 	
