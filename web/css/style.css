@@ -4,7 +4,7 @@
  html, body{
  	background-color: #F7F5F2;
  	margin: 0;
- 	font-family: "Comic Sans MS", cursive, Helvetica, Arial, sans-serif;
+ 	font-family: cursive, Helvetica, Arial, sans-serif;
  }
 
  ol{
@@ -129,7 +129,7 @@ input[type=text]:focus {
     height: 5px;
     left: 0;
     right: 0;
-    background-color: tomato;
+    background-color: teal;
     -webkit-transform: translateY(25px);
     transform: translateY(25px);
 }
@@ -151,7 +151,7 @@ input[type=text]:focus {
  }
  .btn-primary{
     padding: 8px 161px;
-    background-color: tomato;
+    background-color: teal;
  }
  .New{
     float: left;

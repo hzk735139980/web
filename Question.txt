@@ -1,0 +1,1 @@
+1. log in modal won't close after click sign up
