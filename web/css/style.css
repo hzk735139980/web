@@ -7,10 +7,15 @@
     src: url('MostraOneRegular.ttf');
 }
 
+@font-face{
+    font-family: circular;
+    src: url('circular.ttf');
+}
+
  html, body{
  	background-color: #F7F5F2;
  	margin: 0;
- 	font-family: myfirstfont, Helvetica, Arial, sans-serif;
+ 	font-family: circular, Helvetica, Arial, sans-serif;
  }
 
  ol{
@@ -404,6 +409,7 @@ input[type=text]:focus {
  }
 .theme{
     font-size: 22px;
+    font-family: myfirstfont;
  }
 
  .explore-btn{
