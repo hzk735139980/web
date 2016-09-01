@@ -1,15 +1,22 @@
  * {
  	box-sizing: border-box;
  }
+
+@font-face{
+    font-family: myfirstfont;
+    src: url('MostraOneRegular.ttf');
+}
+
  html, body{
  	background-color: #F7F5F2;
  	margin: 0;
- 	font-family: cursive, Helvetica, Arial, sans-serif;
+ 	font-family: myfirstfont, Helvetica, Arial, sans-serif;
  }
 
  ol{
  	padding: 0px;
  }
+
 
 /* nav info */
 .nav-info{
@@ -80,7 +87,7 @@
 
 /*search bar*/
 input[type=text]{
-    width: 169px;
+    width: 50px;
     height: 30px;
     border-color: transparent;    
     
@@ -94,7 +101,7 @@ input[type=text]{
 }
 
 input[type=text]:focus {
-    width: 100%;
+    width: 169px;
 }
 
  .logo-img{
@@ -151,7 +158,7 @@ input[type=text]:focus {
     float: right;
  }
 
- .btn-primary{
+ .Modalbtn{
     padding: 8px 161px;
     background-color: teal;
  }
@@ -268,6 +275,16 @@ input[type=text]:focus {
     
 }
 
+.travelerlink{
+    padding: 10px;
+    font-size: 17px;
+}
+
+.travlerlink:hover{
+    font-color: #ff5a5f;
+}
+
+
 .border-left{
     border-left: 0.1rem solid #DCDEDD;
 }
@@ -329,37 +346,47 @@ margin-right: 55px;
     margin-left: 274px;
 }
 
-.btn-group{
+.footerbtn-pos{
     margin-left: 254px;
     margin-top: 30px;
 }
 
-.btn{
-    height: 60px;
-    width: 45px;
+.footerbtn-size{
+    height: 73px;
+    width: 300px;
     background-color: gray;
+    font-size: 50px;
 }
-
+.footerbtn-right-size{
+    background-color: gray;
+    height: 73px;
+    width: 50px;
+}
 .footer-left a{
     color: white;
 }
 
 .top{
-    font-size: 22px;
+    color: white;
+    font-size: 30px;
     margin-bottom: 15px;
 }
 
 .footer-mid ul{
-    margin-top: 200px;
-}
-.footer-mid ul li{
-    color: white;
+    margin-top: 150px;
 }
 
 .footer-right ul{
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
-.footer-right ul li{
+.others{
     color: white;
+    font-size: 18px;
+}
+
+.caret{
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 40px solid;
 }
