@@ -21,7 +21,6 @@
 /* nav info */
 .nav-info{
  	height: 70px;
- 	/*background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.001)); */
  	background-color: white;
  	position: relative;
  }
@@ -136,7 +135,7 @@ input[type=text]:focus {
     height: 5px;
     left: 0;
     right: 0;
-    background-color: teal;
+    background-color: #ff5a5f;
     -webkit-transform: translateY(25px);
     transform: translateY(25px);
 }
@@ -160,7 +159,6 @@ input[type=text]:focus {
 
  .Modalbtn{
     padding: 8px 161px;
-    background-color: teal;
  }
 
  .New{
@@ -176,15 +174,171 @@ input[type=text]:focus {
  .carousel-inner{
  	position: relative;
  }
- .center_info{
- 	position: absolute;
- 	top: 50%;
- 	left:50%;
- 	margin:0;
- 	transform: translate(-50%, -50%);
- 	font-size: 50px;
- 	color: white;
+ .cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(64,64,64,.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* img/JapaneseCuteFood.jpg info */
+ .jcf-title-l{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
+.jcf-title-m{
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -60%);
+    font-size: 23px;
+    color: white;
+    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.jcf-button{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -60%);
+    font-size: 17px;
+    color: white;
+    background-color: #ff5a5f;
+    padding: 15px;
+    border: 0px;
+    border-radius: 5px;
+    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.jcf-button:hover{
+    background-color:#f78184;
+}
+ /* love-lock */
+ .ll-title-l{
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+.ll-title-m{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -60%);
+    font-size: 24px;
+    color: white;
+    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ll-button{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -60%);
+    font-size: 17px;
+    color: white;
+    background-color: #ff5a5f;
+    padding: 15px;
+    border: 0px;
+    border-radius: 5px;
+    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ll-button:hover{
+    background-color:#f78184;
+}
+/* 100 kiss */
+ .ks-title-l{
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+.ks-title-m{
+    position: absolute;
+    top: 52%;
+    left: 33%;
+    margin: 0;
+    transform: translate(-50%, -60%);
+    font-size: 22px;
+    color: white;
+    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ks-button{
+    position: absolute;
+    top: 71%;
+    left: 25%;
+    margin: 0;
+    transform: translate(-50%, -60%);
+    font-size: 17px;
+    color: white;
+    background-color: #ff5a5f;
+    padding: 15px;
+    border: 0px;
+    border-radius: 5px;
+    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ks-button:hover{
+    background-color:#f78184;
+}
+/* pokemon */
+ .pok-title-l{
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+.pok-title-m{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -60%);
+    font-size: 22px;
+    color: white;
+    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.pok-button{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -60%);
+    font-size: 17px;
+    color: white;
+    background-color: #ff5a5f;
+    padding: 15px;
+    border: 0px;
+    border-radius: 5px;
+    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.pok-button:hover{
+    background-color:#f78184;
+}
 
  
 

@@ -1,1 +1,6 @@
-1. log in modal won't close after click sign up
+1. after open modal(log in or sign up) one by one and then close, whole page will move to left about 15px
+2. how to use url? I download font:Mostra Nuova, and it's only work when I move the font file into css folder  
+
+1.@media
+2.traveller
+3.successful 
