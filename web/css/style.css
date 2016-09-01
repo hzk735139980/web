@@ -324,8 +324,40 @@ margin-right: 55px;
     -webkit-filter: grayscale(20%);
 }
 
+.footer-logo{
+    width: 30%;
+    margin-left: 274px;
+}
+
+.btn-group{
+    margin-left: 254px;
+    margin-top: 30px;
+}
+
+.btn{
+    height: 60px;
+    width: 45px;
+    background-color: gray;
+}
+
+.footer-left a{
+    color: white;
+}
+
+.top{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.footer-mid ul{
+    margin-top: 200px;
+}
 .footer-mid ul li{
     color: white;
+}
+
+.footer-right ul{
+    margin-top: 200px;
 }
 
 .footer-right ul li{
