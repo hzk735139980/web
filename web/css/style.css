@@ -569,3 +569,42 @@ margin-right: 55px;
     border-right: 15px solid transparent;
     border-top: 40px solid;
 }
+
+.index-nav {
+    display: none;
+    position: fixed;
+    width: 48px;
+    z-index: 90;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.index-nav .nav-list {
+    position: relative;
+    z-index: 233;
+    background-color: #f6f9fa;
+    border: 1px solid #e5e9ef;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.index-nav .n-i:first-child {
+    border-top: 0;
+}
+
+.index-nav .n-i {
+    cursor: pointer;
+}
+
+.index-nav .n-i .name {
+    height: 32px;
+    line-height: 32px;
+    transition: .1s linear;
+    transition-property: background-color,color;
+}
+
