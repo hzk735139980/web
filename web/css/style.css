@@ -352,8 +352,6 @@ input[type=text]:focus {
  .homepage_container{
  	margin-left: 9%;
  	margin-right: 9%;
-    
- 	
  }
 
  .thumbnail{
@@ -366,7 +364,12 @@ input[type=text]:focus {
  .projectimg{
     min-width: 100%;
  }
+.project-editer-photo{
+    float: left;
+    width: 65px;
+    transform: translate(0%, -75%);
 
+}
  .part-topic{
  	/*background-color: white;
  	height: 70px;
