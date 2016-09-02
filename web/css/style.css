@@ -417,7 +417,7 @@ input[type=text]:focus {
     font-family: myfirstfont;
  }
 
- .explore-btn{
+/* .explore-btn{
  	background-color: white;
  	color: black;
  	padding: 8px;
@@ -431,8 +431,77 @@ input[type=text]:focus {
 
  .explore-btn:hover{
  	background-color: teal;
- }
-
+ }*/
+/* traveler info */
+.targetDiv{
+    position: relative;
+}
+.tra-name{
+    position: absolute;
+    top: 20%;
+    left: 44%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+.tra-btn{
+    position: absolute;
+    top: 22%;
+    left: 88%;
+    margin: 0;
+    transform: translate(-50%, -60%);
+    font-size: 14px;
+    color: #737373;
+    background-color: white;
+    padding: 5px 10px;
+    border-color: #737373;
+    border-radius: 5px;
+}
+.salt-bottle{
+    height: 15px;
+}
+.tra-level-img{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+}
+.tra-level-info{
+    position: absolute;
+    top: 31%;
+    left: 49%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+}
+.tra-intro{
+    position: absolute;
+    top: 51%;
+    left: 65%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    width: 500px;
+}
+.tra-hist{
+    position: absolute;
+    top: 86%;
+    left: 65%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding-top: 7px;
+    width: 500px;
+}
+.num-green{
+    font-size: 24px;
+    color: green;
+}
+.border-top{
+    border-top: 0.1rem solid #737373;
+}
 /* traveler */
 .travelers ul li{
     border-left: 3px solid transparent;
