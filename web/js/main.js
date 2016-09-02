@@ -31,12 +31,12 @@ function closeNav() {
 
 $('.targetDiv').hide();
 $('#div1').show();
+
 $('.travelerlink').click(function () {
     $('.targetDiv').hide();
     $('#div' + $(this).attr('target')).show();
 });
 
-$('.hide').click(function () {
-    $('.targetDiv').hide();
-  
-});
+ $('.disabled').click(function(e){
+     e.preventDefault();
+})

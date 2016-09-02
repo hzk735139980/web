@@ -430,10 +430,11 @@ input[type=text]:focus {
  }
 
 /* traveler */
-.travelers{
-    padding-left: 18px;
-    margin-left: 12px;
-    
+.travelers ul li{
+    border-left: 3px solid transparent;
+    line-height: 25px;
+    margin-left: -1px;
+    padding-left: 20px;
 }
 
 .travelerlink{
@@ -441,10 +442,27 @@ input[type=text]:focus {
     font-size: 17px;
 }
 
-.travlerlink:hover{
-    font-color: #ff5a5f;
+.disabled{
+    color: black;
+    position: relative;
 }
 
+.disabled:hover{
+    color: #ff5a5f;
+}
+
+.disabled:hover::after {  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 17px;
+    width: 3px;
+    left: 0;
+    right: 0;
+    background-color: #ff5a5f;
+    -webkit-transform: translateX(-25px);
+    transform: translateX(-25px);
+}
 
 .border-left{
     border-left: 0.1rem solid #DCDEDD;
