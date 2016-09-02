@@ -402,14 +402,18 @@ input[type=text]:focus {
     font-size: 14px;
     background-color: #F7F5F2;
     padding-left: 23px;
+    font-family: myfirstfont;
  }
 
  .more a{
     color: #9a9999;
     text-decoration: none;
  }
+ .more a:hover{
+    font-size: 16px;
+ }
 .theme{
-    font-size: 22px;
+    font-size: 24px;
     font-family: myfirstfont;
  }
 
@@ -440,6 +444,7 @@ input[type=text]:focus {
 .travelerlink{
     padding: 10px;
     font-size: 17px;
+    font-weight: lighter;
 }
 
 .disabled{
