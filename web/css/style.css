@@ -432,6 +432,7 @@ input[type=text]:focus {
  .explore-btn:hover{
  	background-color: teal;
  }*/
+
 /* traveler info */
 .targetDiv{
     position: relative;
@@ -451,11 +452,12 @@ input[type=text]:focus {
     margin: 0;
     transform: translate(-50%, -60%);
     font-size: 14px;
-    color: #737373;
-    background-color: white;
+    color: white;
+    background-color: #ff5a5f;
     padding: 5px 10px;
     border-color: #737373;
     border-radius: 5px;
+    border:0;
 }
 .salt-bottle{
     height: 15px;
