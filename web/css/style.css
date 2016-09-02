@@ -15,7 +15,7 @@
  html, body{
  	background-color: #F7F5F2;
  	margin: 0;
- 	font-family: circular, Helvetica, Arial, sans-serif;
+ 	font-family: Helvetica, Arial, sans-serif;
  }
 
  ol{
@@ -197,7 +197,7 @@ input[type=text]:focus {
     color: white;
     text-transform: uppercase;
     font-weight: 700;
-    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  Helvetica, Arial, sans-serif;
  }
 .jcf-title-m{
     position: absolute;
@@ -207,7 +207,7 @@ input[type=text]:focus {
     transform: translate(-50%, -60%);
     font-size: 23px;
     color: white;
-    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  Helvetica, Arial, sans-serif;
 }
 .jcf-button{
     position: absolute;
@@ -221,7 +221,7 @@ input[type=text]:focus {
     padding: 15px;
     border: 0px;
     border-radius: 5px;
-    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  Helvetica, Arial, sans-serif;
 }
 .jcf-button:hover{
     background-color:#f78184;
@@ -236,7 +236,7 @@ input[type=text]:focus {
     font-size: 50px;
     color: white;
     font-weight: 500;
-    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  Helvetica, Arial, sans-serif;
  }
 .ll-title-m{
     position: absolute;
@@ -246,7 +246,7 @@ input[type=text]:focus {
     transform: translate(-50%, -60%);
     font-size: 24px;
     color: white;
-    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:   Helvetica, Arial, sans-serif;
 }
 .ll-button{
     position: absolute;
@@ -260,7 +260,7 @@ input[type=text]:focus {
     padding: 15px;
     border: 0px;
     border-radius: 5px;
-    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  Helvetica, Arial, sans-serif;
 }
 .ll-button:hover{
     background-color:#f78184;
@@ -275,7 +275,7 @@ input[type=text]:focus {
     font-size: 50px;
     color: white;
     font-weight: 500;
-    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:   Helvetica, Arial, sans-serif;
  }
 .ks-title-m{
     position: absolute;
@@ -285,7 +285,7 @@ input[type=text]:focus {
     transform: translate(-50%, -60%);
     font-size: 22px;
     color: white;
-    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:   Helvetica, Arial, sans-serif;
 }
 .ks-button{
     position: absolute;
@@ -299,7 +299,7 @@ input[type=text]:focus {
     padding: 15px;
     border: 0px;
     border-radius: 5px;
-    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:   Helvetica, Arial, sans-serif;
 }
 .ks-button:hover{
     background-color:#f78184;
@@ -314,7 +314,7 @@ input[type=text]:focus {
     font-size: 48px;
     color: white;
     font-weight: 500;
-    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:   Helvetica, Arial, sans-serif;
  }
 .pok-title-m{
     position: absolute;
@@ -324,7 +324,7 @@ input[type=text]:focus {
     transform: translate(-50%, -60%);
     font-size: 22px;
     color: white;
-    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:   Helvetica, Arial, sans-serif;
 }
 .pok-button{
     position: absolute;
@@ -338,12 +338,14 @@ input[type=text]:focus {
     padding: 15px;
     border: 0px;
     border-radius: 5px;
-    font-family:  "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:   Helvetica, Arial, sans-serif;
 }
 .pok-button:hover{
     background-color:#f78184;
 }
-
+.banner-info-align-center {
+    text-align: center;
+}
  
 
  /* homepage project part */
