@@ -25,7 +25,7 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
-    document.body.style.backgroundColor = "white";
+    document.body.style.backgroundColor = "#F7F5F2";
 
 }
 
@@ -40,3 +40,7 @@ $('.travelerlink').click(function () {
  $('.disabled').click(function(e){
      e.preventDefault();
 })
+
+ function openWin() {
+    window.open("LoveLockProject.html");
+}

@@ -793,3 +793,44 @@ input[type=text]:focus {
     min-width: 100%;
 }
 /* startaplan end*/
+
+
+/*lovelockproject */
+.banner-image{
+    min-width: 100%;
+    -webkit-filter: grayscale(50%);
+/*    position: relative;
+*/}
+
+.photo-image{
+    transform: translate(265%,-50%);
+/*    position: absolute;
+*/}
+
+.profile-btn{
+    float: right;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+
+.lovehead{
+    text-align: center;
+    margin-top: -100px;
+}
+
+.lovep{
+    margin-left: 40%;
+    font-size: 18px;
+}
+
+.return{
+    text-align: center;
+}
+
+.lovetitle{
+    margin-left: 5%;
+}
+
+.discription{
+    margin-left: 7%;
+}
