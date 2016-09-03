@@ -64,21 +64,23 @@ ol{
     padding-top: 60px;
 }
 .side-menu a {
-    padding: 8px 8px 8px 32px;
-    font-size: 25px;
+    padding: 20px 0px 15px 32px;
+    font-size: 18px;
     color: white;
     display: block;
     transition: 0.3s;
-    font-weight: lighter;
+    font-weight: 100;
 }
 
-.side-menu a:hover, .offcanvas a:focus{
+.side-menu a:hover .offcanvas a:focus{
     color: black;
+    font-size: 24px;
 }
+
 .side-menu .closebtn{
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 20px;
     font-size: 36px;
     margin-left: 50px;
 }
@@ -86,8 +88,8 @@ ol{
 #main {
     transition: margin-left .5s;
 }
-
 /*side menu property ends*/
+
 
 /*search bar*/
 input[type=text]{
@@ -149,11 +151,12 @@ input[type=text]:focus {
 .modal-dialog{
     width: 420px;
 }
-
 .modal-content{
     height: 520px;
 }
-
+.modal-log-height{
+    height: 400px;
+}
 .modal-title{
     padding-bottom: 30px; 
 }
@@ -225,7 +228,7 @@ input[type=text]:focus {
     font-family:  Helvetica, Arial, sans-serif;
 }
 .jcf-button:hover{
-    background-color:#f78184;
+    background-color:#ff282e;
 }
 /* love-lock */
 .ll-title-l{
@@ -264,7 +267,7 @@ input[type=text]:focus {
     font-family:  Helvetica, Arial, sans-serif;
 }
 .ll-button:hover{
-    background-color:#f78184;
+    background-color:#ff282e;
 }
 /* 100 kiss */
 .ks-title-l{
@@ -303,7 +306,7 @@ input[type=text]:focus {
     font-family:   Helvetica, Arial, sans-serif;
 }
 .ks-button:hover{
-    background-color:#f78184;
+    background-color:#ff282e;
 }
 /* pokemon */
 .pok-title-l{
@@ -342,7 +345,7 @@ input[type=text]:focus {
     font-family:   Helvetica, Arial, sans-serif;
 }
 .pok-button:hover{
-    background-color:#f78184;
+    background-color:#ff282e;
 }
 .banner-info-align-center {
     text-align: center;
@@ -376,13 +379,14 @@ input[type=text]:focus {
     width: 65px;
 }
 .pro-name-position{
-    margin-left: 70px;
+    padding-left: 25%;
 }
 .pro-topic{
     font-size: 15px;
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 6px;
+    padding-left: 25%;
 }
 .pro-intro{
     font-size: 12px;
@@ -482,6 +486,10 @@ input[type=text]:focus {
     border-color: #737373;
     border-radius: 5px;
     border:0;
+}
+.tra-btn:hover{
+    font-size: 16px;
+    background-color: #ff282e;
 }
 .salt-bottle{
     height: 15px;
@@ -684,15 +692,18 @@ input[type=text]:focus {
 .index-nav {
     display: none;
     position: fixed;
-    width: 48px;
+    width: 6%;
     z-index: 90;
-    text-align: center;
+    text-align: left;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+        left: 93%;
+        top: 350px;
+
 }
 
 .index-nav .nav-list {
