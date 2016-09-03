@@ -702,8 +702,8 @@ input[type=text]:focus {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-        left: 93%;
-        top: 350px;
+    left: 93%;
+    top: 350px;
 
 }
 
@@ -777,5 +777,19 @@ input[type=text]:focus {
 }
 
 .right-pad{
-padding: 8px 0;
+    padding: 8px 0;
 }
+/* profile1 end*/
+
+/* startaplan */
+.main-container{
+    background-image: url('startaplanbgblur.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-position-x: 0;
+    margin-top: 0;
+    height: 500px;
+    min-width: 100%;
+}
+/* startaplan end*/
