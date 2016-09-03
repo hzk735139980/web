@@ -357,10 +357,13 @@ input[type=text]:focus {
 .thumbnail{
   padding: 0;
   width: 29%;
+  height: 480px;
   margin: 0px 2%;
   display: inline-block;
 }
-
+.top-align{
+    vertical-align: top;
+}
 .projectimg{
     min-width: 100%;
 }
