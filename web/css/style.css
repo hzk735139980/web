@@ -72,7 +72,7 @@ ol{
     font-weight: 100;
 }
 
-.side-menu a:hover .offcanvas a:focus{
+.side-menu a:hover, .offcanvas a:focus{
     color: black;
     font-size: 24px;
 }
