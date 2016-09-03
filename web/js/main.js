@@ -15,8 +15,8 @@ $('.multi-item-carousel .item').each(function(){
 });
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "200px";
-    document.getElementById("main").style.marginLeft = "200px";
+    document.getElementById("mySidenav").style.width = "210px";
+    document.getElementById("main").style.marginLeft = "210px";
     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 
 
